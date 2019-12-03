@@ -1,6 +1,10 @@
 console.log('yomama');
 
 
-$("button").on("click",() =>{
-	$('#interface').text($("button.text()"))
-}	
+function insert(char){
+	document.form.interface.value = document.form.interface.value + char
+	}
+
+function equals(){
+	document.form.interface.value = eval(document.form.interface.value)
+}

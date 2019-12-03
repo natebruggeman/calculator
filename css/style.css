@@ -13,3 +13,10 @@ button{
 h2{
 	font-size: 55px;
 }
+.interface{
+	width: 280px;
+	height: 55px;
+	margin: 5px;
+	border-radius: 10px; 
+	font-size: 30px;
+}
