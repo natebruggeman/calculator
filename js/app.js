@@ -1,4 +1,3 @@
-console.log('yomama');
 
 
 function insert(char){
@@ -7,4 +6,9 @@ function insert(char){
 
 function equals(){
 	document.form.interface.value = eval(document.form.interface.value)
+}
+
+function clearChars(){
+
+	document.form.interface.value = " ";
 }
